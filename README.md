@@ -4,6 +4,8 @@ An Application to find nearby Hospitals and labs in different cities. This Hospi
 
 It also shows corona virus realtime info of India and worldwide.
 
+Try Apk on your device: https://lnkd.in/gxU764G
+
 
 ## Source of Data
 Special thanks to [Novel Covid API](https://github.com/novelcovid/api) for providing free APIs to fetch data. 
