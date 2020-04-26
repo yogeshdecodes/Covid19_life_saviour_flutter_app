@@ -1,0 +1,54 @@
+name: lifesaviour
+description: An Application find nearby Hospitals and labs to user location. This Hospital list is taken from official government websites and credible sources.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  font_awesome_flutter: ^8.8.0
+  cupertino_icons: ^0.1.2
+  http: ^0.12.0+4
+  url_launcher: ^5.4.1
+  share: ^0.6.3+6
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - images/
+    - assets/lab.json
+    - assets/hospital.json
+    - assets/helpline.json
+
+
+  fonts:
+    - family: Pacifico
+      fonts:
+        - asset: fonts/Pacifico-Regular.ttf
+
+
+    - family: Source Sans Pro
+      fonts:
+        - asset: fonts/SourceSansPro-Regular.ttf
+
+    - family: ProductSans
+      fonts:
+        - asset: assets/GoogleSans-Medium.ttf
+
+    - family: Source Serif Pro
+      fonts:
+        - asset: fonts/SourceSerifPro-Regular.ttf
+
+
+
